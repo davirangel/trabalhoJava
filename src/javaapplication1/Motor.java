@@ -2,7 +2,40 @@ package javaapplication1;
 public class Motor {
     int potencia, RPMMaxima, RPM;
     String marca, modelo, tipoCombustivel;
-
+    
+    public Motor() {
+        
+    }
+    public Motor(int potencia, int RPMMaxima, int RPM) {
+        this.potencia = potencia;
+        this.RPMMaxima = RPMMaxima;
+        this.RPM = RPM;
+    }    
+    public Motor(String marca, String modelo, String tipoCombustivel) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.tipoCombustivel = tipoCombustivel;
+    }  
+    public Motor(String modelo) {
+        this.modelo = modelo;
+    }
+    public Motor(int potencia) {
+        this.potencia = potencia;
+    }
+    public Motor(int potencia, String modelo) {
+        this.potencia = potencia;
+        this.modelo = modelo;
+    }
+    public Motor(String marca, String modelo) {
+        this.marca = marca;
+        this.modelo = modelo;
+    }
+    public Motor(int potencia, int RPMMaxima) {
+        this.potencia = potencia;
+        this.RPMMaxima = RPMMaxima;
+    }
+    
+            
     public int getPotencia() {
         return potencia;
     }

@@ -1,9 +1,10 @@
 package javaapplication1;
 public class VeiculoMaritimo {
-    int preco, numeroPassageiros, velocidadeMaxima;
+    float preco;
+    int numeroPassageiros, velocidadeMaxima;
     String marca, modelo, id;
 
-    public int getPreco() {
+    public float getPreco() {
         return preco;
     }
 
@@ -51,4 +52,7 @@ public class VeiculoMaritimo {
         this.id = id;
     }
     
+    public void imprimir() {
+        System.out.println("TESTE!");
+    }   
 }

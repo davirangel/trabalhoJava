@@ -36,4 +36,9 @@ public class Lancha extends VeiculoMaritimo {
         setModelo(modelo);
         setId(id);
     }
+    
+    public float valorDesconto() {
+        float desconto  = (float) (getPreco() * 0.9);
+        return desconto;
+    }
 }

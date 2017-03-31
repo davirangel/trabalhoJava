@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 package javaapplication1;
 
@@ -127,3 +128,6 @@ public class Iate extends VeiculoMaritimo {
     }
 }
 
+=======
+
+>>>>>>> 28071465be937d3c88bb79ef24e4447f5e2b02f3

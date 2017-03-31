@@ -41,7 +41,7 @@ public class VeiculoMaritimo {
         return preco;
     }
 
-    public void setPreco(int preco) {
+    public void setPreco(float preco) {
         this.preco = preco;
     }
 
@@ -84,7 +84,7 @@ public class VeiculoMaritimo {
     public void setId(String id) {
         this.id = id;
     }
-    
+    /* MÉTODOS */
     public void imprimir() {
         System.out.println("TESTE!");
     }   

@@ -61,5 +61,24 @@ public class Jetski extends VeiculoMaritimo {
     }
     
     /* METODOS */
+    public void imprimir() {
+        super.imprimir();
+        System.out.println("TIPO DO CASCO: " + getTipoCasco());
+        System.out.println("REBOQUE: " + isReboque());
+    }
+    public void cadastrar(float preco, int numeroPassageiros, int velocidadeMaxima, String marca, String modelo, String id, String tipoCasco, boolean reboque) {
+        setPreco(preco);
+        setNumeroPassageiros(numeroPassageiros);
+        setVelocidadeMaxima(velocidadeMaxima);
+        setMarca(marca);
+        setModelo(modelo);
+        setId(id);
+        setTipoCasco(tipoCasco);
+        setReboque(reboque);
+    }
     
+    public float valorDesconto() {
+        float desconto = (float) (getPreco() * 0.85);
+        return desconto;
+    }
 }

@@ -63,6 +63,7 @@ public class Lancha extends VeiculoMaritimo {
     
     /* METODOS */
     public void imprimir() {
+        super.imprimir();
         System.out.println("TIPO DO CASCO: " + getTipoCasco());
         System.out.println("BANHEIRO: " + isBanheiro());
     }
